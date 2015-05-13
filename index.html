@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>MovilApp</title>
+        <title>PushArt</title>
         <meta charset="UTF-8">
         
         <link rel="shortcut icon" size="196x196" href="Imagen/icon_app.png"/>
@@ -112,18 +112,18 @@ alert(data.errors.Titulo);
     </style>
     <body>
         <div data-role="page" id="login" data-theme="login" >
-           <div align="center" style=" margin-top: 150px;  ">
+            <label aling="center" style="  margin-top: 50px;
+              font-family: monospace;
+              font-style: oblique;
+              font-size: 40px;">PushArt</label>
+           <div align="center" style=" margin-top: 50px;  ">
                     <img border="0" style="max-width: 100%; width: 200px" src="http://www.sageventure.com/clipart/VenturingLogo3.gif">
                 </div>
-            <label aling="center" style="  margin-top: 100px;
-  font-family: monospace;
-  font-style: oblique;
-  font-size: x-large;">ARTAPP</label>
             <div data-role="content" style="margin-top: 20px; background: #ffffff;margin-left: 60px; margin-right: 60px;padding-top: 20px;
   padding-bottom: 20px;  border-radius: inherit;"  >
                 <a href="#popup" id="popup_button" style="display:none" data-rel="popup" data-position-to="window" data-inline="true" data-transition="pop">POP</a>
                 
-                <form id="frm_login" name="login_frm" method="post"  enctype="multipart/form-data"  data-ajax="false" >
+                <form id="frm_login" name="login_frm" method="post"  enctype="multipart/form-data"  data-ajax="false" style="margin-bottom 60px;">
                     <div class="list_login" align="left" data-role="listview" data-inset="true" data-theme="none">
                  
                     
@@ -152,7 +152,7 @@ alert(data.errors.Titulo);
                 <div class="modal-dialog" >
                     <div class="modal-header" style="background: #305c77">
                         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
-                        <h3 class="modal-title" id="myModalLabel">Registrarse usuario</h3>
+                        <h3 class="modal-title" id="myModalLabel">Registro de usuario</h3>
                     </div>
                     <div class="panel panel-default">
                         <form class="form-horizontal" method="POST" id="CrearUsuario2">
