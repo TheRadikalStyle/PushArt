@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+     <head>
+        <title>MovilApp</title>
+        <meta charset="UTF-8">
+        <!--   funciona lo dejo    -->
+         <meta charset="UTF-8">
+        
+        <link rel="shortcut icon" size="196x196" href="Imagen/icon_app.png"/>
+        <link rel="apple-touch-icon" href="Imagen/icon_app.png" size="200px"/>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        
+        <!-- Jquery -->
+        <script src="Js/Jquery/jquery-2.1.3.min.js"></script>
+        <script src="validaciones/ProyectoVal.js"></script>
+        <!-- Jquery Mobile -->
+        <script src="Js/JqueryMobile/jquery.mobile-1.4.5.min.js"></script>
+        <!-- Estilo del Jquery Mobile -->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/JqueryMobile/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="css/JqueryMobile/ReneMobile.css" />
+        <link rel="stylesheet" href="css/JqueryMobile/Axez.css" />
+        
+        
+        
+      
+        <!--       Asi se dejo          -->
+          <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css"/>
+            <link rel="shortcut icon" sizes="196x196" href="Imagen/icon_app.png">
+
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />   
+            <script src="Js/Jquery/jquery-2.1.3.js"></script>
+           <script src="Js/Jquery/jquery-2.1.3.min.js"></script>
+           
+            <!--Mandar a las consultas -->
+            <script src="Js/barraFijaAdaptable.js"></script>
+            <!-- Jquery Mobile -->
+            <script src="Js/JqueryMobile/jquery.mobile-1.4.5.js"></script>
+            <script src="Js/JqueryMobile/jquery.mobile-1.4.5.min.js"></script>
+            <!-- Js del Jquery Mobile para el DatePicker -->
+            <script src="Js/JqueryMobile/jquery.mobile.datepicker.js"></script>
+            <script src="Js/jquery-ui/datepicker.js"></script>
+            <script src="css/bootstrap/bootstrap2.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/libs/font-awesome.css"/>
+<link rel="stylesheet" type="text/css" href="css/libs/nanoscroller.css"/>
+ 
+<link rel="stylesheet" type="text/css" href="css/compiled/theme_styles.css"/>
+ 
+<link rel="stylesheet" href="css/libs/daterangepicker.css" type="text/css"/>
+<link rel="stylesheet" href="css/libs/jquery-jvectormap-1.2.2.css" type="text/css"/>
+<link rel="stylesheet" href="css/libs/weather-icons.css" type="text/css"/>
+<link rel="stylesheet" href="css/libs/morris.css" type="text/css"/>
+           
+            <!-- Estilo BOS JS -->        
+            <script src="js2/demo-rtl.js"></script>
+<script src="js2/demo-skin-changer.js"></script>  
+
+<script src="js2/bootstrap.js"></script>
+ <script src="js2/scripts.js"></script>
+<script src="js2/pace.min.js"></script>
+<script src="js2/jquery.nanoscroller.min.js"></script>
+<script src="js2/jquery.easypiechart.min.js"></script>
+<script src="js2/jquery.slimscroll.min.js"></script>
+
+<script src="js2/jquery.magnific-popup.min.js"></script>
+        <script src="validaciones/ProyectoVal.js"></script>
+        
+        <!-- Estilo del Jquery Mobile -->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap/bootstrap2.min.css" />
+        <link rel="stylesheet" href="css/JqueryMobile/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="css/JqueryMobile/jquery.mobile-1.4.5.css"/>
+        <link rel="stylesheet" href="css/JqueryMobile/jquery.mobile.datepicker.css" />
+        <link rel="stylesheet" href="css/JqueryMobile/jquery.mobile.datepicker.theme.css" />
+
+        <link rel="stylesheet" href="css/JqueryMobile/ReneMobile.css" />
+       <script src="validaciones/CargarHome.js"></script>
+ 
+        <!--                                                      -->
+     
+    </head>
+
+   
+    <body style="  font-family: 'Open Sans',sans-serif;
+  -webkit-font-smoothing: antialiased;  font-size: 1em;
+  line-height: 1.3;">
+        
+        <div id="inicio" data-role="page" data-skin="theme-blue-gradient" data-toggle="tooltip" style=" text-shadow: none; ">
+                <div data-role="popup" id="popup" data-theme="a" data-overlay-theme="b">
+                    <div data-role="header">POPUP</div>
+                </div>
+                <div style="background-image:linear-gradient(#305c77  , graytext);"  data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" data-theme="none" id="options-panel">
+ <div id="page-wrapper" class="container">
+<div class="row">
+
+    <div id="nav-col" >
+<section id="col-left" class="col-left-nano">
+<div id="col-left-inner" class="col-left-nano-content">
+    <div id="Start" style="  margin-top: 4%;
+  margin-left: 2%;" class="clearfix dropdown profile2-dropdown">
+<img alt="" style="  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;"  src="http://static.aztecatrends.com/crop/crop.php?width=580&height=&img=http://static.tvazteca.com/imagenes/2012/09/Jos-Mar-1413941.jpg&coordinates=50,50"/>
+<div class="user-box" style="   width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;">
+<span class="name">
+    <a class="dropdown-toggle" data-toggle="dropdown" style="   font-family: -webkit-body;
+  padding-left: 15px;
+  font-size: medium;
+  font-style: inherit; cursor: pointer" >
+       <span>Oscar Alexis Gzz Rivera </span>
+
+<i class="fa fa-angle-down"></i>
+</a>
+    
+</span>
+  
+</div>
+<div class="user-box" style="
+  white-space: normal;
+  padding-top: 10px;
+  padding-left: 20px;">
+  <span class="status" style="padding-left: 30px;">
+      <img src="http://www.clker.com/cliparts/q/V/y/m/9/w/glossy-green-icon-button-md.png" style="width: 20px; height: 20px">
+      <i class="fa fa-circle" style="color: #FFF; margin-top: 5px">Online</i> 
+</span>
+    </div>
+</div>
+<div class="navbar-collapse navbar-ex1-collapse" id="sidebar-nav">
+    <ul class="nav nav-pills nav-stacked" style="  margin-left: -20px;">
+    <li style="  color: #8aa4be;
+  font-size: 0.8em;
+  padding: 12px 15px 6px 14px;">
+Navegador
+</li>
+<li>
+    
+    <a  id="Muro2" class="dropdown-toggle" style=" cursor: pointer; margin-left: 35px;
+  font-size: 0.875em;
+  font-weight: 700;">
+<i class="fa fa-dashboard"></i>
+<span>Muro</span>
+</a>
+</li>
+<li>
+<a id="Pinturas" class="dropdown-toggle" style=" cursor: pointer;  margin-left: 35px;
+  font-size: 0.875em;
+  font-weight: 700;">
+<i class="fa fa-envelope"></i>
+<span>Pinturas</span>
+
+</a>
+
+</li>
+<li>
+<a id="Esculturas" class="dropdown-toggle" style=" cursor: pointer; margin-left: 35px;
+  font-size: 0.875em;
+  font-weight: 700;">
+<i class="fa fa-bar-chart-o"></i>
+<span>Esculturas</span>
+</a>
+</li>
+<li>
+<a id="Dibujos" class="dropdown-toggle" style=" cursor: pointer; margin-left: 35px;
+  font-size: 0.875em;
+  font-weight: 700;">
+<i class="fa fa-th-large"></i>
+<span>Dibujos e Imagenes</span>
+</a>
+</li>
+<li>
+<a id="Digital" class="dropdown-toggle" style=" cursor: pointer; margin-left: 35px;
+  font-size: 0.875em;
+  font-weight: 700;">
+<i class="fa fa-th-large"></i>
+<span>Diseño Digital</span>
+</a>
+</li>
+<li>
+    
+    <a  id="Fotografia" class="dropdown-toggle" style=" cursor: pointer; margin-left: 35px;
+  font-size: 0.875em;
+  font-weight: 700;">
+<i class="fa fa-dashboard"></i>
+<span>Fotografia</span>
+</a>
+</li>
+<li class="nav-header " style="  color: #8aa4be;
+  font-size: 0.8em;
+  padding: 12px 15px 6px 14px;">
+Opciones de Perfil
+</li>
+<!--<li>
+    
+    <a  id="Mensajes" class="dropdown-toggle" style=" cursor: pointer; margin-left: 35px;
+  font-size: 0.875em;
+  font-weight: 700;">
+<i class="fa fa-dashboard"></i>
+<span>Mensajes</span>
+</a>
+</li>
+-->
+<li>
+    
+    <a  id="Grupos" class="dropdown-toggle" style=" cursor: pointer; margin-left: 35px;
+  font-size: 0.875em;
+  font-weight: 700;">
+<i class="fa fa-dashboard"></i>
+<span>Grupos</span>
+</a>
+</li>
+
+<li>
+<li>
+<a id="Perfil" style=" cursor: pointer; margin-left: 35px;
+  font-size: 0.875em;
+  font-weight: 700;">
+<i class="fa fa-user"></i>
+<span>Editar Perfil</span>
+</a>
+</li>
+<li>
+    <a href="Conexion/logout.php" data-ajax="false" style="  margin-left: 35px;
+  font-size: 0.875em;
+  font-weight: 700;">
+<i class="fa fa-power-off"></i>
+<span>Cerrar Sesion</span>
+</a>
+</li>
+
+
+
+</ul>
+</div>
+</div>
+</section>
+</div>
+
+</div>
+ </div>
+                </div>
+                             
+                <div data-role="header" data-theme="b" data-position="fixed" data-tap-toggle="false">
+                    <div class="header" align="center" style="background-image: linear-gradient( #5697d0 , #244E71);">
+                        <div align="left" class="icon_left"><a href="#options-panel" data-dis><img src="http://www.sageventure.com/clipart/VenturingLogo3.gif"/></a></div>
+                        
+                                            <div id="proyctoSelectPanel"  align="right" class="icon_right">
+                     
+                            
+                        </div>
+                        
+                        <div id="header_pages" class="header_title" align="center">ArtApp</div>
+
+                    </div>
+                </div>
+            <div class="contenidoo" id="contenidoo">
+            </div>
+         </div>
+           <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-56825472-1', 'auto');
+        ga('send', 'pageview');
+
+    </script> 
+    </body>
+    
+</html>
+ 

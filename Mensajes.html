@@ -1,0 +1,34 @@
+<script>
+
+        $('.MensajeSelect').on('click', function() {
+            $('#MuroMensajeFooter').show();
+            $('#Mesajes').hide();
+            $('#Mesajes').empty();
+            $('#Mesajes').html("<div align='center'><img class='loading_circle' src='Imagen/loading.gif'/></div>");
+            $('#Mesajes').load("CargarMensaje.php?idMes=" + $(this).attr('name') + "").trigger('create');
+            $('#Mesajes').fadeIn("slow");
+        });
+
+
+</script>
+    <div class="row" id="Mesajes">
+
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" >
+    <div class="main-box clearfix profile-box-contact">
+<div class="MensajeSelect" name="<?= $v['idUsuario'] ?>">
+    <div class="profile-box-header gray-bg clearfix" style="padding: 10px 10px;"  >
+        <img src="validaciones/<?= $v['Foto'] ?>" alt="" class="profile-img img-responsive" style="width: 60px; height: 60px;"/>
+<h2><?= $v['nombreUsuario'] ?> <?= $v['apellidos'] ?></h2>
+
+<ul class="contact-details">
+
+<li>
+<span class="glyphicon glyphicon-comment"></span> "<?= $v3['Comentario']; ?>"
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>

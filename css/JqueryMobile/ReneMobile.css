@@ -1,0 +1,706 @@
+body{
+    
+}
+#login .loading_circle{
+    width:200px;;
+}
+#inicio .loading_circle{
+    width:90%; 
+    margin-top: 100px;
+}
+.ui-panel{
+    width:70%;
+}
+.image_panel{
+    margin-top: 10px;
+    border: outset;
+    width: 150px; 
+    height: 150px;
+}
+.image_panel img{
+    width: 100%; 
+    height: 100%;
+    
+}
+.header{
+    height: 43px;
+    background-color: #305D78;
+}
+.header > div{
+    display:inline;
+    vertical-align: top;
+}
+.icon_left img{
+    position: absolute;
+    float:left;
+    left:10px;
+    height:50px; 
+}
+.header_title{
+}
+.icon_right img{
+    position: absolute;
+    float:right;
+    height:40px; 
+    right: 10px;
+}
+.contenido{
+    background-color: #aacecc;
+}
+.button{
+     margin-top: 20px;
+     color:#305D78;
+     cursor: pointer;
+}
+.button a{
+    text-shadow: none;
+    text-decoration: none;
+    display: inline;
+    border:2px solid #000;
+    background-color: #aacecc;
+    border-radius: 5px;
+    padding:5px 7px;
+}
+.button a span{
+    color:#305D78;
+}
+/*Start Proyectos*/
+    /*Start Navbar Proyecto*/
+    .navbar_proyecto{
+        display: none;
+    }
+    .navbar_proyecto .imagen{
+        height: 50px;
+          
+    }
+    .navbar_proyecto img{
+        height: 40px;
+        border-radius: 50%;
+    }
+    .navbar_proyecto li .ui-btn{/*Modifica estilo de botones*/
+        text-shadow: none;
+        padding:0px;
+        font-size: 10px;
+    }
+     /*End Navbar Proyecto*/
+     /*Start Proyecto_1*/
+     .div_contenedor_info_proyecto{
+         background-color:#00415e;
+         position: relative;
+         padding:2px;
+     }
+     .div_contenedor_info_proyecto .info_proyecto{
+
+     }
+     .div_contenedor_info_proyecto .info_proyecto .imagen{
+
+         display: inline-block;
+         vertical-align: top;
+     }
+     .div_contenedor_info_proyecto .info_proyecto .imagen img{
+   
+     }
+     .div_contenedor_info_proyecto .info_proyecto .nombre{
+    
+         display: inline-block;
+         vertical-align: top;
+         margin-top:10px;
+         text-shadow: none;
+         font-size: 20px;
+         min-width: 180px;
+         color:#FFF;
+     }
+     .div_contenedor_info_proyecto .button_editar{
+         float: right;
+         margin-top: -50px;
+         text-shadow: none;
+         font-size: 20px;
+         padding:2px;
+     }
+        /*Start Integrantes*/
+        .div_contenedor_integrantes{
+     
+            padding:0px;
+            margin:0px;
+            position: relative;
+        }
+        .div_contenedor_integrantes .tarjeta_integrante_proyecto{
+  
+            min-height: 50px;
+        }
+        .div_contenedor_integrantes .tarjeta_integrante_proyecto .icon_eliminar_integrante{
+            cursor: pointer; 
+            width: 20px;
+            height: 20px;
+            right: 0px;
+            position: absolute;
+        }
+        .div_contenedor_integrantes .tarjeta_integrante_proyecto .foto_integrante{
+            width: 60px; 
+            height: 60px; 
+            float: left; 
+            margin-top: 5px;
+        }
+        .div_contenedor_integrantes .tarjeta_integrante_proyecto .info_integrante{
+            color: #000; 
+            text-shadow: none;
+            font-size:15px;
+            padding-top:20px;
+        }
+        /*End Integrantes*/
+     /*.info_proyecto .div_imagen{
+         display: inline-block;
+         vertical-align: top;
+     }
+     .info_proyecto .img_proyecto-circle{
+
+         width: 100px;
+         border-radius: 10px;
+
+     }
+      .info_proyecto .nombre_proyecto{
+         display: inline-block;
+         vertical-align: top;
+         min-width: 180px;
+         text-shadow: none;
+         font-size: 25px;
+         margin-top: 10px;
+     }
+     .div_estado_form{     
+     }
+     .div_estado_form .div_txtarea{
+     }
+     .div_estado_form .div_txtarea textarea{
+         width: 100%;
+     }
+     .comentario_proyecto{
+         background-color: red;
+         margin-top: 10px;
+         border:2px solid #000;
+         padding: 5px;
+     }
+     .comentario_proyecto{
+         
+     }
+     #actualiza_estado_proyecto {
+         
+     }
+     .div_crea_comentario_hijo{
+     }
+     .div_crea_comentario_hijo .input_comentario input{
+        width: 90%;
+     }
+     .div_crea_comentario_hijo .submit{
+        margin-top: 5px;
+     }*/
+     /*End Proyecto_1*/
+ /*End Proyectos*/
+ /*Start Cargar Tareas */
+ /*End Cargar TAreas*/
+ 
+ /*Start Muro*/
+ .actulizar_estado{
+     border:2px solid #000;
+     border-radius:10px;
+     padding:5px;
+     background-color: #FFF;
+ }
+ #coment-group .text{
+     
+ }
+ #coment-group .txtarea textarea{
+     width: 90%;
+ }
+    /*Start Comentario*/
+    .contenido_comentario_muro{
+        background-color:#FFF ;
+        margin-top: 10px;
+        border:2px solid #000;
+        border-radius: 10px;
+        padding:5px;
+    }
+    .contenido_comentario_muro .tarjeta_comentario{
+   
+        padding: 0px;
+        margin:0px;
+        box-shadow: none;
+        /*border:1px solid #000;*/
+    }
+    .contenido_comentario_muro .tarjeta_comentario .info_usuario{
+
+        text-decoration: none;
+        position: relative;
+        padding: 0px;
+        margin:0px;
+    }
+     .contenido_comentario_muro .tarjeta_comentario .info_usuario .imagen {
+
+       display: inline-block;
+       vertical-align: top;
+    }
+    .contenido_comentario_muro .tarjeta_comentario .info_usuario .imagen img{
+       border-radius: 10px; 
+       width: 50px; 
+    }
+    .contenido_comentario_muro .tarjeta_comentario .info_usuario .nombre{
+        text-shadow: none;
+        margin-left: 0px;
+        font-size: 25px;
+        min-width: 210px;
+        display: inline-block;
+        vertical-align: top;
+
+        padding-top:20px;
+    }
+    .contenido_comentario_muro .tarjeta_comentario  .comentario_likes{
+       position: absolute;
+       right: 0px;
+    }
+    .contenido_comentario_muro .tarjeta_comentario .info_usuario .comentario_likes a{
+        text-decoration: none;
+    }
+    .contenido_comentario_muro .tarjeta_comentario .info_usuario .comentario_likes .heart_likes{
+        display: inline-block;
+        vertical-align: top;
+        height: 20px;
+        width: 20px;
+        background-image: url(../../Imagen/icons/heart.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .contenido_comentario_muro .contenido_comentario_hijo{
+        padding: 0px;
+
+        padding-left: 10px;
+    }
+    .contenido_comentario_muro .contenido_comentario_hijo .comentario_hijo{
+        padding: 5px;
+        border-bottom:1px solid #ddd;
+    }
+    .contenido_comentario_muro .contenido_comentario_hijo .info_usuario{
+
+        text-decoration: none;
+        padding: 0px;
+        margin: 0px;
+        padding-top: 5px;
+        
+    }
+    .contenido_comentario_muro .contenido_comentario_hijo .info_usuario .imagen{
+
+        display: inline-block;
+        vertical-align: top;
+    }
+    .contenido_comentario_muro .contenido_comentario_hijo .info_usuario .imagen img{
+        border-radius: 5px; 
+        width: 40px; 
+    }
+    .contenido_comentario_muro .contenido_comentario_hijo .info_usuario .nombre a{text-decoration: none;}
+    .contenido_comentario_muro .contenido_comentario_hijo .info_usuario .nombre{
+        text-decoration: none;
+        text-shadow: none;
+        margin-left: 0px;
+        font-size: 18px;
+        min-width: 180px;
+        display: inline-block;
+        vertical-align: top;
+
+    }
+    .contenido_comentario_muro .contenido_comentario_hijo .info_usuario .text_comentario{
+
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .contenido_comentario_muro .CrearComentarioHijo{
+        
+    }
+    .contenido_comentario_muro .CrearComentarioHijo .form_subcomentario{
+    }
+    .contenido_comentario_muro .CrearComentarioHijo .form_subcomentario .contenedor_form{
+        box-shadow: none;
+    }
+    .contenido_comentario_muro .CrearComentarioHijo .form_subcomentario .contenedor_form .div_button{
+       padding-top: 5px;
+    }
+    /*End Comentario*/
+    /*Start Subcomentario*/
+    
+    /*End Subcomentario*/
+    /*Start Mensajes*/
+    .div_mensajes_usuario {
+
+        margin-top: 10px;
+    }
+    .div_mensajes_usuario .tarjeta_mensaje_usuario{
+        border:2px solid #000;
+        border-radius: 10px;
+        background-color: #FFF;
+    }
+    .div_mensajes_usuario .tarjeta_mensaje_usuario .info_usuario{
+        padding:0px;
+        margin:0px;
+    }
+    .div_mensajes_usuario .tarjeta_mensaje_usuario .imagen{
+        display: inline-block;
+        vertical-align: top;
+        height: 50px;
+        width: 50px;
+    }
+    .div_mensajes_usuario .tarjeta_mensaje_usuario .imagen img{
+        width: 100%; 
+        height: 100%;
+        border-radius: 10px;
+    }
+    .div_mensajes_usuario .tarjeta_mensaje_usuario .nombre{
+        display: inline-block;
+        vertical-align: top;
+        text-shadow: none;
+        
+        padding-top: 15px;
+    }
+    .div_mensajes_usuario .tarjeta_mensaje_usuario .nombre a{
+        text-decoration: none;
+        color:#000;
+    }
+        /*Start Cargar Mensajes*/
+        .div_contenido_mensaje{
+            margin-left: 0px; 
+            background: white;
+            border-radius: 10px;
+        }
+        /*Start Header*/
+        .div_contenido_mensaje .mensaje_header{
+            background-color:#00415e ;
+            height: 50px;
+            position: relative;
+            padding: 2px;
+        }
+        .div_contenido_mensaje .mensaje_header .imagen{
+           display: inline-block;
+           vertical-align: top;
+        }
+        .div_contenido_mensaje .mensaje_header .imagen img{
+            border-radius: 10px;
+            max-height: 46px;
+        }
+        .div_contenido_mensaje .mensaje_header .info_contacto{
+           display: inline-block;
+           vertical-align: top;
+        }
+        .div_contenido_mensaje .mensaje_header .info_contacto .nombre{ 
+            color:#FFF;
+            font-size: 20px;
+            text-shadow: none;
+            padding-top: 10px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .div_contenido_mensaje .mensaje_header .info_contacto .estatus_contacto{
+            height: 20px;
+            width: 20px;
+            display: inline-block;
+            vertical-align: top;
+            padding: 15px 0px 0px 5px;
+        }
+        .div_contenido_mensaje .mensaje_header .info_contacto .estatus_contacto img{
+            height: 100%;
+            width: 100%;
+        }
+        /*End Header*/
+        /*Start Contenido Mensajes*/
+        .div_contenido_mensaje .body_mensajes_chat{
+            background: white; 
+            overflow: hidden; 
+            overflow-y: auto;
+        }
+        .div_contenido_mensaje .body_mensajes_chat .MiComentario{
+            box-shadow:  5px 5px 5px #888888; 
+            text-align: left; 
+            border-top-left-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+            padding: 10px; 
+            background: #20b2aa; 
+            margin-bottom: 10px; 
+            position: relative;
+        }
+        .div_contenido_mensaje .body_mensajes_chat .MiComentario .comentario{
+            font-size: 14px; 
+            color:white;
+            margin-top: 10px;
+        }
+        .div_contenido_mensaje .body_mensajes_chat .MiComentario .fecha{
+            position: absolute;
+            text-shadow: 1px 1px 2px #000;
+            font-weight: bold;
+            text-align:right;
+            right: 5px;
+            top:5px;
+            color:gainsboro;
+            font-size: 10px;
+        }
+        .div_contenido_mensaje .body_mensajes_chat .AmigoComentario{
+            box-shadow:  5px 5px 5px #888888; 
+            text-align: right; 
+            border-top-right-radius: 10px; 
+            border-bottom-right-radius: 10px; 
+            padding: 10px; 
+            margin-bottom: 10px; 
+            margin-right: 100px; 
+            background: #75bfd1;
+            position: relative;
+        }
+        .div_contenido_mensaje .body_mensajes_chat .AmigoComentario .comentario{
+            font-size: 14px; 
+            color: #00415e;
+            margin-top: 10px;
+        }
+        .div_contenido_mensaje .body_mensajes_chat .AmigoComentario .fecha{
+            position: absolute;
+            text-shadow: 1px 1px 2px #000;
+            font-weight: bold;
+            text-align:left;
+            left: 5px;
+            top:5px;
+            color:gainsboro;
+            font-size: 10px;
+        }
+        .div_contenido_mensaje .body_mensajes_chat{}
+        /*End Contenido Mensajes*/
+        /*Start Form Mensajes*/
+        .div_enviar_mensaje{
+            
+        }
+        .div_enviar_mensaje .div_form_mensaje{
+            padding:5px;
+        }
+        .div_enviar_mensaje .div_form_mensaje .txtarea textarea{
+            width: 100%;
+        }
+        .div_enviar_mensaje .div_form_mensaje .submit{
+            
+        }
+        /*End Form Mensajes*/
+        
+        /*Cargar Mensajes*/
+    /*End Mensajes*/
+    /*Start Eventos*/
+    .div_eventos_content{
+        background:#428bca ;
+        border-radius: 15px;
+    }
+    .div_eventos_content .header{
+
+        border-radius: 15px;
+        height: 60px;
+        padding: 5px;
+    }
+    .div_eventos_content .header .imagen_perfil{
+        
+    }
+    .div_eventos_content .header .imagen_perfil img{
+        border-radius: 10px; 
+        width: 60px;
+        height: 60px;
+    }
+    .div_eventos_content .header .titulo{
+        display: inline-block; 
+        vertical-align: top;
+        margin-left: 10px; 
+        font-size: 20px; 
+        margin-top: 15px; 
+        color: #fff;
+        text-shadow: none;
+    }
+    .div_eventos_content .div_carga_eventos{
+        padding-top: 20px 0px 20px 0px;
+        background: white; 
+        height: 350px; 
+        overflow: hidden; 
+        overflow-y: auto;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .div_eventos_content .div_carga_eventos .tarjeta_evento{
+
+        padding: 10px;
+    }
+    .div_eventos_content .div_carga_eventos .tarjeta_evento .imagen img{
+         margin-left: 0px;
+         
+         border-radius: 10px; 
+         width: 50px; 
+         height: 50px;
+         background-color: green;
+    }
+    .div_eventos_content .div_carga_eventos .tarjeta_evento .nombre{
+        text-align: left;  
+        margin-top: 0px; 
+        padding-top: 15px;
+        font-size: 20px;
+        display: inline-block;
+        vertical-align: top;
+        min-width: 210px;
+        text-shadow: none;
+    }
+    /*End Eventos*/
+    /*Start Documentos*/
+    .div_contenido_documentos{
+    }
+    .div_contenido_documentos .tarjeta_proyecto{
+        background-color:#FFF;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .header{
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-shadow: none;
+        height: 50px;
+        padding: 5px;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .header > div{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .header .div_nombre{
+        padding-top: 10px;
+        
+    }
+    .div_contenido_documentos .tarjeta_proyecto .header .div_nombre a{
+        color:#FFF;
+        text-shadow:2px 2px 2px #000;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .header .imagen{
+        width: 50px;
+        height: 50px;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .contenido{
+        padding:5px;
+        background-color:#FFF ;
+        text-shadow: none;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .contenido .div_folder{
+        border:2px solid #B2B2B2;
+        border-radius: 10px;
+    }
+    
+    .div_contenido_documentos .tarjeta_proyecto .contenido .div_folder .imagen_folder{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .contenido .div_folder .imagen_folder img{
+        width: 40px;
+        max-height: 40px;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .contenido .div_folder .nombre_folder{
+        display: inline-block;
+        vertical-align: top;
+        cursor: pointer;
+        font-size:  14px ; 
+        margin-top: 9px;
+        margin-left: 1px
+    }
+    .div_contenido_documentos .tarjeta_proyecto .contenido .div_subfolder{
+        display:none ;
+        white-space:nowrap;  
+        height:auto;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        padding: 5px 10px;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .contenido .div_subfolder .div_folder{
+
+    }
+    .div_contenido_documentos .tarjeta_proyecto .contenido .div_subfolder .imagen_folder{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .contenido .div_subfolder .imagen_folder img{
+        width: 30px;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .contenido .div_subfolder .nombre_folder{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .contenido .div_subfolder .div_file{
+   
+       padding:5px;
+       border:2px solid #B2B2B2;
+       border-radius: 10px;
+    }
+    .div_contenido_documentos .tarjeta_proyecto .contenido .div_subfolder .div_file a{
+       text-decoration: none;
+    }
+    .div_contenido_documentos{}
+    /*End Documentos*/
+    /*Start Popup*/
+    
+    #popup_1{
+        border:0px;
+        border-radius: 10px;
+        width: 100%;
+    }
+    #popup_1 .input_popup_evento{
+        font-weight: bold;
+        color:#000;
+    }
+    .div_popup_content{
+        padding:0px;
+    }
+    .popup_header{
+        position: relative;
+        background-color: #305D78;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .popup_header .Imagen{
+        position: absolute;
+        border-radius: 40px; 
+        width: 50px; 
+        height: 50px; 
+        margin-top: 0px;
+    }
+    .popup_header .text{
+        text-align: center;
+        padding:5px;
+        text-shadow: none;
+        color:#FFF;
+    }
+    .popup_content{
+        padding:5px;
+    }
+    #popup_1 .div_buttons{
+        padding:5px;
+    }
+    #popup_1 .div_buttons .ui-input-btn{
+
+        padding:5px 1px;
+        display: inline-block;
+        vertical-align: top;
+        width:45%; 
+        margin-left: 5px;
+    }
+    #popup_1 button{
+        text-shadow: none;
+    }
+    #popup_1 button.button1{
+        background-color: red;
+        display: inline-block;
+        vertical-align: top;
+        width:100%;
+    }
+    #popup_1 button.button2{
+
+        padding:5px 1px;
+        display: inline-block;
+        vertical-align: top;
+        width:45%; 
+        margin-left: 5px;
+    }
+    
+    
+    /*End Popup*/
+ /*End Muro*/

@@ -1,0 +1,89 @@
+
+<head>
+    <link rel="stylesheet" href="css/csse.css">
+    <script src="newjavascript.js"></script>
+    <script src="validaciones/CargarPerfil.js"></script>
+     <script src="validaciones/CargarPerfil2.js"></script>
+</head>
+ <style>
+ .swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    </style>
+     <div data-role="main" class="ui-content jqm-content contenido" style="height: 100%;  border-width: 0;
+  overflow: visible;
+  overflow: hidden;
+  background: green;">
+         <div style="background: white;
+  text-align: center;
+  font-family: monospace;
+  max-width: 30%;
+  border: solid blue 4px;
+  font-size: x-large;
+  font-style: oblique;
+  font-weight: 200;">Perfil</div>
+</div>  
+    <div id="Muroglobal2">
+<div class="row" id="user-profile" style="height: 100%; margin-top: 10px">
+              <div class="col-lg-3 col-md-4 col-sm-4">
+<div id="Nuevo" class="main-box clearfix" style="height: 100%">
+    
+</div>
+</div>
+        <!-- Swiper -->
+        <div  class="swiper-container" style="  margin-top: 22px; padding-top: 0px">
+        <div id="ImagenesUser" class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/1)"><img id="name1" class="perfil-img2" src="http://www.cosassencillas.com/wp-content/uploads/2007/12/Botonesconuneleganteefectocristalbrillan_884C/ShinyButtonBlue.png"></div>
+            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/2)"><img id="name2" class="perfil-img2" src="http://www.cosassencillas.com/wp-content/uploads/2007/12/Botonesconuneleganteefectocristalbrillan_884C/ShinyButtonBlue.png"></div>
+            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/3)"></div>
+            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/4)"></div>
+            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/5)"></div>
+            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/6)"></div>
+            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/7)"></div>
+            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/8)"></div>
+            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/9)"></div>
+            <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/10)"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+            
+
+            </div> 
+
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflow: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true
+        }
+    });
+    
+      $('#name1').on('click', function () {
+        $('#contenidoo').hide();
+        $('#contenidoo').empty();
+        $('#contenidoo').html("<div align='center'><img class='loading_circle' src='Imagen/loading.gif'/></div>");
+        $('#options-panel').panel("close");
+        $('#contenidoo').load("MuroImg.html").trigger('create');
+        $('#contenidoo').fadeIn("slow");
+    });
+     
+    
+    </script>
+            </div>
